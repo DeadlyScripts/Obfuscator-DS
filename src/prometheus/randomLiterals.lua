@@ -19,7 +19,7 @@ function RandomLiterals.String(pipeline)
 end
 
 function RandomLiterals.Dictionary()
-    return RandomStrings.randomStringNode(true);
+    return RandomStrings.randomStringNode(math.random(2, 10));
 end
 
 function RandomLiterals.Number()
